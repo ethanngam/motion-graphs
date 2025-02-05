@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{152889b9-2895-460a-84e3-defeb58c5782}</ProjectGuid>
+    <RootNamespace>MotionGraphsProject</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <IncludePath>C:\Users\Ngam Yi Xiang\source\repos\Motion Graphs Project\Motion-Graphs\Motion Graphs Project\include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Users\Ngam Yi Xiang\source\repos\Motion Graphs Project\Motion-Graphs\Motion Graphs Project\libs;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <IncludePath>C:\Users\Ngam Yi Xiang\source\repos\Motion Graphs Project\Motion-Graphs\Motion Graphs Project\include</IncludePath>
+    <LibraryPath>C:\Users\Ngam Yi Xiang\source\repos\Motion Graphs Project\Motion-Graphs\Motion Graphs Project\libs;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <Optimization>Disabled</Optimization>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>glfw3.lib;opengl32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>opengl32.lib;glfw3.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="include\imgui\backends\imgui_impl_glfw.cpp" />
+    <ClCompile Include="include\imgui\backends\imgui_impl_opengl3.cpp" />
+    <ClCompile Include="include\imgui\imgui.cpp" />
+    <ClCompile Include="include\imgui\imgui_demo.cpp" />
+    <ClCompile Include="include\imgui\imgui_draw.cpp" />
+    <ClCompile Include="include\imgui\imgui_tables.cpp" />
+    <ClCompile Include="include\imgui\imgui_widgets.cpp" />
+    <ClCompile Include="src\core\Bone.cpp" />
+    <ClCompile Include="include\glad\src\glad.c" />
+    <ClCompile Include="src\core\Animation.cpp" />
+    <ClCompile Include="src\core\Camera.cpp" />
+    <ClCompile Include="src\core\Render.cpp" />
+    <ClCompile Include="src\core\Skeleton.cpp" />
+    <ClCompile Include="src\core\stb.cpp" />
+    <ClCompile Include="src\gen\Distance.cpp" />
+    <ClCompile Include="src\gen\Graph.cpp" />
+    <ClCompile Include="src\gen\LocalMin.cpp" />
+    <ClCompile Include="src\gen\Pathline.cpp" />
+    <ClCompile Include="src\gen\Pipeline.cpp" />
+    <ClCompile Include="src\mogen\KovarMG.cpp" />
+    <ClCompile Include="src\mogen\RandomMG.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="data\graphs\graph35\distances\test.dis" />
+    <None Include="data\mocap\35.asx" />
+    <None Include="data\mocap\35_01.amc" />
+    <None Include="data\mocap\35_12.amc" />
+    <None Include="data\mocap\35_16.amc" />
+    <None Include="data\mocap\35_17.amc" />
+    <None Include="data\paths\circle_100_360.path" />
+    <None Include="data\paths\circle_10_360.path" />
+    <None Include="data\paths\circle_25_360.path" />
+    <None Include="data\paths\circle_50_360.path" />
+    <None Include="data\paths\line_50.path" />
+    <None Include="data\paths\line_d_50.path" />
+    <None Include="shaders\floorShader.fs" />
+    <None Include="shaders\floorShader.vs" />
+    <None Include="shaders\skeletonShader.fs" />
+    <None Include="shaders\skeletonShader.vs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\core\Animation.h" />
+    <ClInclude Include="include\gen\Graph.h" />
+    <ClInclude Include="include\core\Bone.h" />
+    <ClInclude Include="include\core\Camera.h" />
+    <ClInclude Include="include\core\Shader.h" />
+    <ClInclude Include="include\core\Skeleton.h" />
+    <ClInclude Include="include\gen\Distance.h" />
+    <ClInclude Include="include\gen\LocalMin.h" />
+    <ClInclude Include="include\gen\Pipeline.h" />
+    <ClInclude Include="include\mogen\KovarMG.h" />
+    <ClInclude Include="include\mogen\MotionGenerator.h" />
+    <ClInclude Include="include\mogen\RandomMG.h" />
+    <ClInclude Include="include\gen\Pathline.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="data\textures\floor-texture.jpeg" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

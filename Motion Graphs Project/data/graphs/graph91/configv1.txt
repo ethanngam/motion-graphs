@@ -1,0 +1,4 @@
+id 91
+window_size 40
+threshold -1
+step_size 20

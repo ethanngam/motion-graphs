@@ -1,0 +1,24 @@
+﻿  Render.cpp
+C:\Users\Ngam Yi Xiang\source\repos\Motion Graphs Project\Motion-Graphs\Motion Graphs Project\include\gen\Graph.h(127,14): warning C4305: 'initializing': truncation from 'double' to 'const float'
+C:\Users\Ngam Yi Xiang\source\repos\Motion Graphs Project\Motion-Graphs\Motion Graphs Project\include\mogen\KovarMG.h(45,26): warning C4244: 'initializing': conversion from 'double' to 'const int', possible loss of data
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\shared\minwindef.h(130,1): warning C4005: 'APIENTRY': macro redefinition
+C:\Users\Ngam Yi Xiang\source\repos\Motion Graphs Project\Motion-Graphs\Motion Graphs Project\include\glad\glad.h(32,1): message : see previous definition of 'APIENTRY'
+C:\Users\Ngam Yi Xiang\source\repos\Motion Graphs Project\Motion-Graphs\Motion Graphs Project\src\core\Render.cpp(55,21): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\Users\Ngam Yi Xiang\source\repos\Motion Graphs Project\Motion-Graphs\Motion Graphs Project\src\core\Render.cpp(56,21): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\Users\Ngam Yi Xiang\source\repos\Motion Graphs Project\Motion-Graphs\Motion Graphs Project\src\core\Render.cpp(267,5): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\Users\Ngam Yi Xiang\source\repos\Motion Graphs Project\Motion-Graphs\Motion Graphs Project\src\core\Render.cpp(411,54): warning C4267: 'argument': conversion from 'size_t' to 'GLsizei', possible loss of data
+C:\Users\Ngam Yi Xiang\source\repos\Motion Graphs Project\Motion-Graphs\Motion Graphs Project\src\core\Render.cpp(616,54): warning C4267: 'argument': conversion from 'size_t' to 'GLsizei', possible loss of data
+C:\Users\Ngam Yi Xiang\source\repos\Motion Graphs Project\Motion-Graphs\Motion Graphs Project\src\core\Render.cpp(617,55): warning C4267: 'argument': conversion from 'size_t' to 'GLsizei', possible loss of data
+C:\Users\Ngam Yi Xiang\source\repos\Motion Graphs Project\Motion-Graphs\Motion Graphs Project\src\core\Render.cpp(621,56): warning C4267: 'argument': conversion from 'size_t' to 'GLsizei', possible loss of data
+C:\Users\Ngam Yi Xiang\source\repos\Motion Graphs Project\Motion-Graphs\Motion Graphs Project\src\core\Render.cpp(622,57): warning C4267: 'argument': conversion from 'size_t' to 'GLsizei', possible loss of data
+C:\Users\Ngam Yi Xiang\source\repos\Motion Graphs Project\Motion-Graphs\Motion Graphs Project\src\core\Render.cpp(630,54): warning C4267: 'argument': conversion from 'size_t' to 'GLsizei', possible loss of data
+C:\Users\Ngam Yi Xiang\source\repos\Motion Graphs Project\Motion-Graphs\Motion Graphs Project\src\core\Render.cpp(637,54): warning C4267: 'argument': conversion from 'size_t' to 'GLsizei', possible loss of data
+C:\Users\Ngam Yi Xiang\source\repos\Motion Graphs Project\Motion-Graphs\Motion Graphs Project\src\core\Render.cpp(700,57): warning C4312: 'type cast': conversion from 'unsigned int' to 'ImTextureID' of greater size
+C:\Users\Ngam Yi Xiang\source\repos\Motion Graphs Project\Motion-Graphs\Motion Graphs Project\src\core\Render.cpp(883,19): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\Ngam Yi Xiang\source\repos\Motion Graphs Project\Motion-Graphs\Motion Graphs Project\src\core\Render.cpp(884,19): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\Ngam Yi Xiang\source\repos\Motion Graphs Project\Motion-Graphs\Motion Graphs Project\src\core\Render.cpp(885,13): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Ngam Yi Xiang\source\repos\Motion Graphs Project\Motion-Graphs\Motion Graphs Project\src\core\Render.cpp(886,13): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Ngam Yi Xiang\source\repos\Motion Graphs Project\Motion-Graphs\Motion Graphs Project\src\core\Render.cpp(901,27): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\Ngam Yi Xiang\source\repos\Motion Graphs Project\Motion-Graphs\Motion Graphs Project\src\core\Render.cpp(902,27): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\Ngam Yi Xiang\source\repos\Motion Graphs Project\Motion-Graphs\Motion Graphs Project\src\core\Render.cpp(985,26): warning C4244: '*=': conversion from 'double' to 'float', possible loss of data
+  Motion Graphs Project.vcxproj -> C:\Users\Ngam Yi Xiang\source\repos\Motion Graphs Project\Motion-Graphs\x64\Debug\Motion Graphs Project.exe
