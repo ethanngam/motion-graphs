@@ -1,6 +1,6 @@
 # Animation of Avatars using Human Motion Capture Data
 
-This repository host the code for my bachelor's thesis: "_Animation of Avatars using Human Motion Capture Data_" where I explored the practical implementation of the motion graph algorithm by [Kovar et. al. 2002](https://dl.acm.org/doi/10.1145/566654.566605). The user defines the path, and the program procedurally stitches and blends a database of motion capture data together to procedurally generate motions in real-time. This projects is completely implemented from scratch with **C++**, [OpenGL](https://github.com/glfw/glfw), and [Dear ImGui](https://github.com/ocornut/imgui) to create a complete, interactive, and real-time application. The following lists the key features and engineering decisions within the program. And for those who are interested, the thesis is available [here](./docs/project_report.pdf)!
+This repository host the code for my bachelor's thesis: "_Animation of Avatars using Human Motion Capture Data_" where I explored the practical implementation of the motion graph algorithm by [Kovar et. al. 2002](https://dl.acm.org/doi/10.1145/566654.566605). The user defines the path, and the program procedurally stitches and blends a database of motion capture data together to procedurally generate motions in real-time. This project is completely implemented from scratch with **C++**, [OpenGL](https://github.com/glfw/glfw), and [Dear ImGui](https://github.com/ocornut/imgui) to create a complete, interactive, and real-time application. The following lists the key features and engineering decisions within the program. And for those who are interested, the thesis is available [here](./docs/project_report.pdf)!
 
 ## Interactive GUI
 
@@ -58,5 +58,19 @@ This repository host the code for my bachelor's thesis: "_Animation of Avatars u
    - **Point Cloud Simplification** - Speed up distance computation between point clouds by only comparing key points across the motion capture data.
    - **Constant Path Length** - Reduce the function that locates the point at a certain arclength from linear O(n) to constant O(1) complexity using equal-length control points.
    - **Ablation Analysis** - Performed ablation experiments on the algorithms parameters (e.g. keep ratio, threshold, search depth) to balance the trade-off between runtime peformance and motion quality.
+
+## Citation
+
+If you found this useful, you can cite the original authors of the motion graph algorithm here:
+
+```bibtex
+@incollection{kovar2023motion,
+  title={Motion graphs},
+  author={Kovar, Lucas and Gleicher, Michael and Pighin, Fr{\'e}d{\'e}ric},
+  booktitle={Seminal Graphics Papers: Pushing the Boundaries, Volume 2},
+  pages={723--732},
+  year={2023}
+}
+```
 
 
